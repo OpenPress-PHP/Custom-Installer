@@ -1,0 +1,19 @@
+{
+    "name": "openpress/plugin-installer-plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "OpenPress\\Composer\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "OpenPress\\Composer\\CustomInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
