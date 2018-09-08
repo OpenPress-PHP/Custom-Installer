@@ -12,9 +12,9 @@ class CustomInstallerPlugin implements PluginInterface
     public function activate(Composer $composer, IOInterface $io)
     {
         $pluginInstaller = new PluginInstaller($io, $composer);
-        $composer->getInstallationManager()->addInstaller($installer);
+        $composer->getInstallationManager()->addInstaller($pluginInstaller);
 
         $themeInstaller = new ThemeInstaller($io, $composer);
-        $composer->getInstallationManager()->addInstaller($installer);
+        $composer->getInstallationManager()->addInstaller($themeInstaller);
     }
 }
