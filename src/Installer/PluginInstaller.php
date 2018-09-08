@@ -5,6 +5,6 @@ class PluginInstaller extends Installer
 {
     protected function getName()
     {
-        return "plugin";
+        return "plugins";
     }
 }

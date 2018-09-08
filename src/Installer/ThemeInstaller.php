@@ -5,6 +5,6 @@ class ThemeInstaller extends Installer
 {
     protected function getName()
     {
-        return "theme";
+        return "themes";
     }
 }
