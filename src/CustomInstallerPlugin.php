@@ -7,7 +7,7 @@ use Composer\Plugin\PluginInterface;
 
 class CustomInstallerPlugin implements PluginInterface
 {
-    public function active(Composer $composer, IOInterface $io)
+    public function activate(Composer $composer, IOInterface $io)
     {
         $pluginInstaller = new PluginInstaller($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
