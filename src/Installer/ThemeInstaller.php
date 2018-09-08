@@ -3,8 +3,8 @@ namespace OpenPress\Composer\Installer;
 
 class ThemeInstaller extends Installer
 {
-    public function __construct()
+    protected function getName()
     {
-        parent::__construct("theme");
+        return "theme";
     }
 }

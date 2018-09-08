@@ -3,8 +3,8 @@ namespace OpenPress\Composer\Installer;
 
 class PluginInstaller extends Installer
 {
-    public function __construct()
+    protected function getName()
     {
-        parent::__construct("plugin");
+        return "plugin";
     }
 }
