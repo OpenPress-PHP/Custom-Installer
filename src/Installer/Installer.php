@@ -13,7 +13,7 @@ abstract class Installer extends LibraryInstaller
 
     public function supports($packageType)
     {
-        $type = substr($this->getName(), 0, strlen($this->getName()) - 2);
+        $type = substr($this->getName(), 0, strlen($this->getName()) - 1);
         return "openpress-{$type}" === $packageType;
     }
 
