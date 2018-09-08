@@ -1,6 +1,7 @@
 <?php
 namespace OpenPress\Composer\Installer;
 
+use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 
 class Installer extends LibraryInstaller
