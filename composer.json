@@ -1,5 +1,5 @@
 {
-    "name": "openpress/plugin-installer-plugin",
+    "name": "openpress/composer-custom-installer",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
@@ -14,6 +14,7 @@
         "composer-plugin-api": "^1.0"
     },
     "require-dev": {
-        "composer/composer": "^1.3"
+        "composer/composer": "^1.3",
+        "phpunit/phpunit": "^7.3"
     }
 }
